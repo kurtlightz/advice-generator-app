@@ -1,0 +1,66 @@
+body {
+  background-color: #1E2631;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+body .card {
+  width: 518px;
+  background-color: #313A49;
+  box-shadow: 5px 13px 22px 26px rgba(0, 0, 0, 0.08);
+  border-radius: 28px;
+  margin: 0 auto;
+}
+body .card .container {
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .card .container #advicenumber {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.085em;
+  margin-top: auto;
+  color: #4EFFAD;
+}
+body .card .container #results {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.085em;
+  margin-top: auto;
+  color: #FFFFFF;
+}
+body .card .container .wrap {
+  display: flex;
+  align-items: center;
+}
+body .card .container .wrap .borderline1 {
+  width: 202.5px;
+  height: 0px;
+  border: 1px solid #737373;
+}
+body .card .container .wrap .borderline2 {
+  width: 202.5px;
+  height: 0px;
+  border: 1px solid #737373;
+}
+body .card .container .refreshicon {
+  margin-top: 243px;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+body .card .container .refreshicon:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
